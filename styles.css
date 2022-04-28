@@ -32,6 +32,10 @@ body {
   visibility: hidden;
 }
 
+.trans {
+    filter: blur(8px);
+}
+
 /* GallerySection */
 
 .gallery {
@@ -49,10 +53,17 @@ body {
   position: absolute;
   z-index: 1;
   left: 15px;
-  bottom: 20px;
+  bottom: 25px;
   font-size: 12px;
   padding: 0;
   margin: 0;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
 }
 
 /* GallerySection */
@@ -68,7 +79,14 @@ body {
   z-index: 2;
   position: absolute;
   top: 0;
-  background-color: rgb(32, 33, 36, 0.85);
+}
+
+.item .desc {
+    text-transform: capitalize;
+    font-size: 12px;
+    display: absolute;
+    bottom: 5px;
+    left: 15px;
 }
 
 /* embed {
