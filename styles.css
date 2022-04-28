@@ -28,6 +28,10 @@ body {
   background-color: #1f2224;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /* GallerySection */
 
 .gallery {
@@ -52,6 +56,27 @@ body {
 }
 
 /* GallerySection */
+
+/* EnlargeImageSection */
+
+.photo-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  background-color: rgb(32, 33, 36, 0.85);
+}
+
+/* embed {
+  position: absolute;
+
+} */
+
+/* EnlargeImageSection */
 
 /* FooterSection */
 
